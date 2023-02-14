@@ -59,7 +59,7 @@ class CircleProgressBar extends Component {
           style={{
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '#fff',
+            backgroundColor: this.props.backgroundColor,
             width: (circle_width - circle_width / 10)- 2,
             height: (circle_width - circle_width / 10) - 2,
             borderRadius: ((circle_width - circle_width / 10)) / 2,
