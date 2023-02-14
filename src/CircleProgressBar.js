@@ -50,7 +50,7 @@ class CircleProgressBar extends Component {
     return (
       <View
         style={{
-          backgroundColor: '#fff',
+          backgroundColor: this.props.backgroundColor,
           width: circle_width,
           height: circle_width,
           borderRadius: 100
